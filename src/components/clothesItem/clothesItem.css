@@ -1,6 +1,7 @@
 .clothesItem {
-    background: #1E1E1E;
+    background: #494B4B;
     padding: 5px;
+    border: #1E1E1E solid 1px;
 }
 
 h2 {

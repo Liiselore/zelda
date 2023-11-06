@@ -1,34 +1,15 @@
 import "./navbar.css";
 import {useState} from "react";
 import search from './search_FILL0_wght400_GRAD0_opsz24.png';
-
+import { AiOutlineSearch } from 'react-icons/ai'
 
 export default function Navbar() {
-    let [searchInput, setSeachInput] = useState("");
-    const [searchBarActive, setSearchBarActive] = useState(false)
+    const [searchInput, setSearchInput] = useState("");
 
     const handleChange = (e) => {
         e.preventDefault();
-        setSeachInput(e.target.value)
-        console.log(searchInput)
-        showSearchBarIcon()
+        setSearchInput(e.target.value);
     };
-
-    function showSearchBarIcon() {
-        if (searchInput != "") {
-            setSearchBarActive(true)
-        } else if (searchInput === "") {
-            setSearchBarActive(false)
-        }
-    }
-
-    function showIcon() {
-        if (searchBarActive === true) {
-            return (
-                <img className={"searchImg"} src={search}/>
-            )
-        }
-    }
 
     return (
         <>
@@ -39,10 +20,10 @@ export default function Navbar() {
                            type={"text"}
                            label={"search"}
                            placeholder={"Search"}
-                           onChange={handleChange}
                            value={searchInput}
+                           onChange={handleChange}
                     />
-                    {showIcon()}
+                    <AiOutlineSearch className="searchIcon" size={40}/>
                 </div>
             </nav>
 
