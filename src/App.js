@@ -6,7 +6,9 @@ function App() {
     return (
         <div className={"main-content"}>
             <Navbar/>
-            <ClothesItem/>
+            <ClothesItem />
+            <ClothesItem />
+            <ClothesItem />
         </div>
     );
 }
