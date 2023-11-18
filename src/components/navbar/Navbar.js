@@ -1,6 +1,5 @@
 import "./navbar.css";
 import {useState} from "react";
-import search from './search_FILL0_wght400_GRAD0_opsz24.png';
 import { AiOutlineSearch } from 'react-icons/ai'
 
 export default function Navbar() {

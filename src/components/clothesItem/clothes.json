@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Hylian Hood",
+    "type": "Headgear"
+  },
+  {
+    "id": 2,
+    "name": "Hylian Trousers",
+    "type": "Legwear"
+  },
+  {
+    "id": 3,
+    "name": "Hylian Tunic",
+    "type": "Body Armor"
+  }
+]
