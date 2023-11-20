@@ -9,7 +9,7 @@ function App() {
             <Navbar/>
             { clothes.map(item =>  {
                 return (
-                    <ClothesItem name={item.name} type={item.type}/>
+                    <ClothesItem name={item.name} type={item.type} img={item.image}/>
                 )
             })}
         </div>

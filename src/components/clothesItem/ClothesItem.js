@@ -4,7 +4,7 @@ import {AiOutlineCheckCircle} from "react-icons/ai"
 import {useState} from "react";
 import Modal from 'react-modal';
 
-export default function ClothesItem({name, type}) {
+export default function ClothesItem({name, type, img}) {
     const [level, setLevel] = useState(null);
     const [hover, setHover] = useState(null);
     const [isChecked, toggleIsChecked] = useState(false);
@@ -23,10 +23,9 @@ export default function ClothesItem({name, type}) {
 
     return (<div className={"clothesItem"}>
         <h2>{name}</h2>
-        {/*<h3>{type}</h3>*/}
         <div className="container">
             <div className="image">
-                {/*img */}
+                <img src={img}/>
             </div>
             <div>
                 {[...Array(5)].map((star, index) => {
@@ -61,7 +60,9 @@ export default function ClothesItem({name, type}) {
                               onClick={openModal}
                 />
                     <Modal className="modal" isOpen={isModalOpen} onClose={closeModal}>
-                        <h2> Naam van het product </h2>
+                        <h2> {name} </h2>
+                        <p> {type} </p>
+
                         <button onClick={closeModal}> Close</button>
                     </Modal>
             </div>

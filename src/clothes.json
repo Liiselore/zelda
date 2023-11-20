@@ -2,16 +2,71 @@
   {
     "id": 1,
     "name": "Hylian Hood",
-    "type": "Headgear"
+    "type": "Headgear",
+    "image": "https://www.mandatory.gg/wp-content/uploads/mandatory-zelda-totk-guide-armor-hylian-hood.png",
+    "need": {
+      "level1": {
+        "material": {
+          "name": "Bokolbin horn",
+          "number": 5
+        }
+      },
+      "level2": {
+        "material": {
+          "item": {
+            "name": "Blue bokolbin horn",
+            "number": 5
+          },
+          "Item": {
+            "name": "Bokoblin fang",
+            "number": 3
+          }
+        },
+        "level3": {
+          "material": {
+            "item": {
+              "name": "Black bokolbin horn",
+              "number": 5
+            },
+            "Item": {
+              "name": "Bokoblin guts",
+              "number": 3
+            },
+            "Item": {
+              "name": "Amber",
+              "number": 20
+            }
+          }
+        },
+        "level4": {
+          "material": {
+            "item": {
+              "name": "Silver bokolbin horn",
+              "number": 5
+            },
+            "Item": {
+              "name": "Bokoblin guts",
+              "number": 5
+            },
+            "Item": {
+              "name": "Amber",
+              "number": 30
+            }
+          }
+        }
+      }
+    }
   },
   {
     "id": 2,
     "name": "Hylian Trousers",
-    "type": "Legwear"
+    "type": "Legwear",
+    "image": "https://www.mandatory.gg/wp-content/uploads/mandatory-zelda-totk-guide-armor-hylian-trousers.png"
   },
   {
     "id": 3,
     "name": "Hylian Tunic",
-    "type": "Body Armor"
+    "type": "Body Armor",
+    "image": "https://www.mandatory.gg/wp-content/uploads/mandatory-zelda-totk-guide-armor-hylian-tunic.png"
   }
 ]
