@@ -17,7 +17,6 @@ export default function Navbar() {
                 <div className={"searchbar"}>
                     <input className={"searchbar-text"}
                            type={"text"}
-                           label={"search"}
                            placeholder={"Search"}
                            value={searchInput}
                            onChange={handleChange}
@@ -25,7 +24,6 @@ export default function Navbar() {
                     <AiOutlineSearch className="searchIcon" size={40}/>
                 </div>
             </nav>
-
         </>
     )
 }

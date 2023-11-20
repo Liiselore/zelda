@@ -3,9 +3,8 @@ import {FaStar, FaArrowRight} from "react-icons/fa";
 import {AiOutlineCheckCircle} from "react-icons/ai"
 import {useState} from "react";
 import Modal from 'react-modal';
-import clothes from "./clothes.json";
 
-export default function ClothesItem() {
+export default function ClothesItem({name, type}) {
     const [level, setLevel] = useState(null);
     const [hover, setHover] = useState(null);
     const [isChecked, toggleIsChecked] = useState(false);
@@ -23,7 +22,8 @@ export default function ClothesItem() {
     }
 
     return (<div className={"clothesItem"}>
-        <h2>Naam van het product</h2>
+        <h2>{name}</h2>
+        {/*<h3>{type}</h3>*/}
         <div className="container">
             <div className="image">
                 {/*img */}
