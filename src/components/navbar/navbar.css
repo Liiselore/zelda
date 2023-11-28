@@ -46,3 +46,7 @@ h1 {
     align-self: center;
     cursor: pointer;
 }
+
+.searchIcon :hover {
+    color: #D4CE46;
+}

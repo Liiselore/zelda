@@ -25,10 +25,10 @@ export default function ClothesItem({name, type, img}) {
         <h2>{name}</h2>
         <div className="container">
             <div className="image">
-                <img src={img}/>
+                <img src={img} alt="image" className="img-clothes"/>
             </div>
             <div>
-                {[...Array(5)].map((star, index) => {
+                {[...Array(4)].map((star, index) => {
                     const currentLevel = index + 1;
                     return (<label>
                         <input
@@ -47,7 +47,7 @@ export default function ClothesItem({name, type, img}) {
                     </label>)
                 })}
             </div>
-            <div>
+            <div className="check-circle">
                 <AiOutlineCheckCircle className="check-circle"
                                       size={50}
                                       value={isChecked}
@@ -62,7 +62,6 @@ export default function ClothesItem({name, type, img}) {
                     <Modal className="modal" isOpen={isModalOpen} onClose={closeModal}>
                         <h2> {name} </h2>
                         <p> {type} </p>
-
                         <button onClick={closeModal}> Close</button>
                     </Modal>
             </div>

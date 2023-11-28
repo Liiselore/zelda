@@ -4,12 +4,16 @@
     "name": "Hylian Hood",
     "type": "Headgear",
     "image": "https://www.mandatory.gg/wp-content/uploads/mandatory-zelda-totk-guide-armor-hylian-hood.png",
+    "location": "watchtower, costs 70 rupees",
+    "effect": null,
+    "setbonus": null,
     "need": {
       "level1": {
         "material": {
           "name": "Bokolbin horn",
           "number": 5
-        }
+        },
+        "Rupees": 20
       },
       "level2": {
         "material": {
@@ -21,37 +25,37 @@
             "name": "Bokoblin fang",
             "number": 3
           }
-        },
-        "level3": {
-          "material": {
-            "item": {
-              "name": "Black bokolbin horn",
-              "number": 5
-            },
-            "Item": {
-              "name": "Bokoblin guts",
-              "number": 3
-            },
-            "Item": {
-              "name": "Amber",
-              "number": 20
-            }
+        }
+      },
+      "level3": {
+        "material": {
+          "item": {
+            "name": "Black bokolbin horn",
+            "number": 5
+          },
+          "Item": {
+            "name": "Bokoblin guts",
+            "number": 3
+          },
+          "Item": {
+            "name": "Amber",
+            "number": 20
           }
-        },
-        "level4": {
-          "material": {
-            "item": {
-              "name": "Silver bokolbin horn",
-              "number": 5
-            },
-            "Item": {
-              "name": "Bokoblin guts",
-              "number": 5
-            },
-            "Item": {
-              "name": "Amber",
-              "number": 30
-            }
+        }
+      },
+      "level4": {
+        "material": {
+          "item": {
+            "name": "Silver bokolbin horn",
+            "number": 5
+          },
+          "Item": {
+            "name": "Bokoblin guts",
+            "number": 5
+          },
+          "Item": {
+            "name": "Amber",
+            "number": 30
           }
         }
       }

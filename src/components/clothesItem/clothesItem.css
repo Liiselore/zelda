@@ -16,6 +16,11 @@ h2 {
     justify-content: space-between;
 }
 
+.img-clothes {
+    max-width: 60%;
+    max-length: 60%;
+}
+
 input[type=radio] {
     display: none;
 }
@@ -29,7 +34,7 @@ input[type=radio] {
     cursor: pointer;
 }
 
-.check-circle:hover {
+.check-circle :hover {
     color: #D4CE46;
 }
 
